@@ -12,3 +12,4 @@ recipe 'cloudera-hadoop', 'Installs Cloudera Pseudo (all on one node)'
 end
 
 depends "yum"
+depends "java"
