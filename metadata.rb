@@ -10,3 +10,5 @@ recipe 'cloudera-hadoop', 'Installs Cloudera Pseudo (all on one node)'
 %w{ centos }.each do |os|
   supports os
 end
+
+depends "yum"
