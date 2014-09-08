@@ -1,6 +1,9 @@
 .vagrant
 /cookbooks
 
+# emacs
+*~
+
 # Bundler
 bin/*
 .bundle/*
