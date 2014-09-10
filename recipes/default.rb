@@ -14,6 +14,7 @@ case node[:platform]
       hadoop-0.20-mapreduce-jobtracker
       hadoop-0.20-mapreduce-tasktracker
       hadoop-client
+      pig
     }.each do |pkg|
       package pkg
    end
